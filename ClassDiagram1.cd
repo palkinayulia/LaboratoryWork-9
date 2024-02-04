@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Лабораторная_работа__9.Program">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Лабораторная_работа__9.Rectangle">
+    <Position X="5.75" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAAAAAxEEAIEBAAgAIQAIAAAAAAGAAAAA=</HashCode>
+      <FileName>Rectangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Лабораторная_работа__9.RectangleArray">
+    <Position X="7.75" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAACAgAAABAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RectangleArray.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

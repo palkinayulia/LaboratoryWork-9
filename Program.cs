@@ -1,7 +1,20 @@
 ﻿namespace Лабораторная_работа__9
 {
-    internal class Program
+    public class Program
     {
+        public static double AverageCircle(RectangleArray array) //функция для выполнения задания 3 части
+        {
+            double areaCircle;
+            double sumAreas = 0;
+            double averageCircle;
+            for (int i = 0; i < array.Length; i++)
+            {
+                areaCircle = Math.PI * Math.Pow(Math.Sqrt(array[i].Width * array[i].Width * array[i].Length * array[i].Length) / 2, 2);
+                sumAreas += areaCircle;
+            }
+            averageCircle = sumAreas / array.Length;
+            return averageCircle;
+        }
         static void Main(string[] args)
         {
             //часть 1
@@ -68,19 +81,6 @@
             RectangleArray arr = new RectangleArray(5);
             arr.Show();
 
-            static double AverageCircle(RectangleArray array) //функция для выполнения задания 3 части
-            {
-                double areaCircle;
-                double sumAreas = 0;
-                double averageCircle;
-                for (int i = 0; i < array.Length; i++)
-                {
-                    areaCircle = Math.PI * Math.Pow(Math.Sqrt(array[i].Width * array[i].Width * array[i].Length * array[i].Length) / 2, 2);
-                    sumAreas += areaCircle;
-                }
-                averageCircle = sumAreas / array.Length;
-                return averageCircle;
-            }
 
             double average = AverageCircle(arr);
             Console.WriteLine($"среднее арифметическое площадей описанных около прямоугольников окружностей: {average:f4}");
